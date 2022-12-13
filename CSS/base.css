@@ -1,0 +1,134 @@
+/* 
+    该文件用于存放原子类
+ */
+
+/* 清除浮动 */
+.clearflow::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* 居中对齐 */
+.block-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+/* 文本居中 */
+.text-center {
+    text-align: center;
+}
+
+/* 页面版心 */
+.inner-center {
+    width: 1440px;
+    margin: 0px auto;
+}
+
+/* 透明 */
+.element-transparent {
+    /* opacity: 0; */
+    display: none;
+}
+
+/* 背景颜色-粉色 */
+.bgc-pink {
+    background-color: pink;
+}
+
+/* 背景颜色-白色 */
+.bgc-white {
+    background-color: white;
+}
+
+/* 背景颜色-天蓝色 */
+.bgc-skyblue {
+    background-color: skyblue;
+}
+
+/* 背景颜色-浅色 */
+.bgc-f9fcff {
+    background-color: #f9fcff;
+}
+
+/* 背景颜色-f8f8f8 */
+.bgc-f8f8f8 {
+    background-color: #f8f8f8;
+}
+
+/* 背景颜色-f1f3f4 */
+.bgc-f1f3f4 {
+    background-color: #f1f3f4;
+}
+
+/* 背景颜色-014fa0 */
+.bgc-014fa0 {
+    background-color: #014fa0;
+}
+
+/* 清除外左边距 */
+.clear-left-margin {
+    margin-left: 0;
+}
+
+/* 清除外右边距 */
+.clear-right-margin {
+    margin-right: 0;
+}
+
+/* 清除外上边距 */
+.clear-top-margin {
+    margin-top: 0;
+}
+
+/* 清除外下边距 */
+.clear-bottom-margin {
+    margin-bottom: 0;
+}
+
+/* 清除内左边距 */
+.clear-left-padding {
+    padding-left: 0;
+}
+
+/* 清除内右边距 */
+.clear-right-padding {
+    padding-right: 0;
+}
+
+/* 清除内上边距 */
+.clear-top-padding {
+    padding-top: 0;
+}
+
+/* 清除内下边距 */
+.clear-bottom-padding {
+    padding-bottom: 0;
+}
+
+/* 呼吸灯 */
+@keyframes breathing {
+    from {
+        box-shadow: inset 0px 0px 5px 5px greenyellow;
+    }
+
+    50% {
+        box-shadow: inset 0px 0px 5px 5px rgba(0, 0, 0, 0);
+    }
+
+    100% {
+        box-shadow: inset 0px 0px 5px 5px orange;
+    }
+}
+
+.breathing-light {
+    animation: breathing 3s alternate infinite linear;
+    -webkit-animation: breathing 3s alternate infinite linear;
+}

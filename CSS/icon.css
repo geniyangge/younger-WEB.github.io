@@ -1,0 +1,61 @@
+/* 
+    该文件用于存放自定义icon
+ */
+
+/* 三角形 */
+/* 底15px 高10px 指向下的白色三角形 */
+.triangle-to_down-15-10 {
+    display: block;
+    width: 0px;
+    border: 10px solid rgba(0, 0, 0, 0);
+    border-top-color: black;
+    border-top-width: 15px;
+}
+
+/* 底15px 高10px 指向下的 #004ea2 色三角形 */
+.triangle-to_down-10-5-004ea2 {
+    display: block;
+    width: 0px;
+    border: 5px solid rgba(0, 0, 0, 0);
+    border-top-color: #004ea2;
+    border-top-width: 10px;
+    transform: translateY(25%);
+    -webkit-transform: translateY(25%);
+    -moz-transform: translateY(25%);
+    -ms-transform: translateY(25%);
+    -o-transform: translateY(25%);
+}
+
+/* 圆形 */
+/* 半径20px的圆形 */
+.circle-white-r20 {
+    display: block;
+    width: 20px;
+    height: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 18px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+/* 胶囊形 */
+/* 颜色为#014fa2 宽126px 高52px 的胶囊形 */
+.capsule-w126-h52 {
+    display: block;
+    width: 126px;
+    height: 52px;
+    border-radius: 26px;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 50px;
+    background-color: #014fa2;
+    -webkit-border-radius: 26px;
+    -moz-border-radius: 26px;
+    -ms-border-radius: 26px;
+    -o-border-radius: 26px;
+}
